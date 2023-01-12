@@ -48,10 +48,12 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>
-                    http://localhost:9000
-                </sonar.host.url>
+               <sonar.host.url>http://https://sonarqube-chanu.apps.ocp4.imss.com</sonar.host.url>
+	      <sonar.login>305055ded541f6f94da2167cc7d31c11393d95d3</sonar.login>
+               <sonar.projectName>praveen</sonar.projectName>
+               <sonar.projectVersion>master</sonar.projectVersion>
+               <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
+               <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
             </properties>
         </profile>
         <profile>
