@@ -48,10 +48,10 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://https://sonarqube-chanu.apps.ocp4.imss.com</sonar.host.url>
-	      <sonar.login>305055ded541f6f94da2167cc7d31c11393d95d3</sonar.login>
-               <sonar.projectName>praveen</sonar.projectName>
-               <sonar.projectVersion>master</sonar.projectVersion>
+               <sonar.host.url>http://44.200.221.192:9000/</sonar.host.url>
+	       <sonar.login>sqp_e60cafe06e18c6da7588f1d14415c798dda2c074</sonar.login>
+               <sonar.projectName>ci-pipeline</sonar.projectName>
+               <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
             </properties>
