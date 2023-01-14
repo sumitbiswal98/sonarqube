@@ -49,7 +49,7 @@
             </activation>
             <properties>
                <sonar.host.url>http://44.200.221.192:9000/</sonar.host.url>
-	       <sonar.login>sqp_e60cafe06e18c6da7588f1d14415c798dda2c074</sonar.login>
+	       <sonar.login>sqa_92611c799eba881dce1fc84f3bce5646afd35b74</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
