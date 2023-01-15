@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://44.200.221.192:9000/</sonar.host.url>
-	       <sonar.login>sqa_92611c799eba881dce1fc84f3bce5646afd35b74</sonar.login>
+               <sonar.host.url>http://sonarqube-pkr-demo.apps.ocp4.imss.com/</sonar.host.url>
+	       <sonar.login>sqp_9fb0f66e2bdead47edf2be683e8a24a62fc9876d</sonar.login>
                <sonar.projectName>ci-pipeline</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
