@@ -7,9 +7,10 @@
     <mirror> <!--Send all requests to the public group -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/</url>
+      <url>http:http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-proxy-repo/</url>
     </mirror>
   </mirrors>
+  
   <activeProfiles>
     <!--make the profile active all the time -->
     <activeProfile>nexus</activeProfile>
@@ -31,6 +32,7 @@
           </snapshots>
         </repository>
       </repositories>
+      
       <pluginRepositories>
         <pluginRepository>
           <id>central</id>
