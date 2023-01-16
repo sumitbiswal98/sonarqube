@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: sonarqube-maven-example
+    spec:
       containers:
         - image: quay.io/praveenrachamreddy/ci-pipeline
           imagePullPolicy: Always
