@@ -18,7 +18,7 @@ spec:
           imagePullPolicy: Always
           name: sonarqube-maven-example
           ports:
-            - containerPort: 80
+            - containerPort: 8080
               protocol: TCP
 
 ---
@@ -31,9 +31,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - name: 80-tcp
-      port: 80
-      targetPort: 80
+    - name: 8080-tcp
+      port: 8080
+      targetPort: 8080
       protocol: TCP
   selector:
     app: sonarqube-maven-example
@@ -47,7 +47,7 @@ metadata:
   name: sonarqube-maven-example
 spec:
   port:
-    targetPort: 80-tcp
+    targetPort: 8080-tcp
   to:
     kind: Service
     name: sonarqube-maven-example
