@@ -98,5 +98,16 @@
             </build>
         </profile>
     </profiles>
+<distributionManagement>
+    <snapshotRepository>
+      <id>nexusdeploymentrepo</id>
+      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+    </snapshotRepository>
+	<repository>
+	  <id>nexusdeploymentrepo</id>
+      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+    </repository>
+  
+  </distributionManagement>
 
 </project>
