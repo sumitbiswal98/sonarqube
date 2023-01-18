@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: private-demo
+  name: private-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: private-demo
+  template:
+    metadata:
+      labels:
+        app: private-demo
+    spec:
+      containers:
+        - image: quay.io/rohanp/sonarqube:latest
+          imagePullPolicy: Always
+          name: private-demo
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+            - containerPort: 9090
+              protocol: TCP
