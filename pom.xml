@@ -61,9 +61,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://sonarqube-pkr-demo.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqa_6bb090a174c8fb26ea048646dfb8f46108a1480b</sonar.login>
-               <sonar.projectName>ci-pipeline</sonar.projectName>
+               <sonar.host.url>https://sonar-pipeline-private.apps.cluster-9pmm6.9pmm6.sandbox2372.opentlc.com//</sonar.host.url>
+	       <sonar.login>squ_d515d1e6d8d92eef141cd6fab41bee52cd0ccb1b</sonar.login>
+               <sonar.projectName>rohan2</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
                <sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions>
