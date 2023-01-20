@@ -2,6 +2,7 @@ FROM registry.access.redhat.com/ubi8/openjdk-11@sha256:c3313ff2be6f114e8283e9087
 WORKDIR /
 EXPOSE 8080
 COPY target/sonarqube-maven-example-1.0-SNAPSHOT.jar /
+USER root
 RUN  chmod -R 600 /sonarqube-maven-example-1.0-SNAPSHOT.jar
 CMD jar -ufm sonarqube-maven-example-1.0-SNAPSHOT.jar MANIFEST.MF
 
