@@ -15,7 +15,7 @@ spec:
         app: sonarqube-maven-example
     spec:
       containers:
-        - image: quay.io/praveenrachamreddy/ci-pipeline
+        - image: quay.io/monishkumar/mo-ro-sonarqube
           imagePullPolicy: Always
           name: sonarqube-maven-example
           ports:
