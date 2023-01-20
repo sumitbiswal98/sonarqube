@@ -4,4 +4,4 @@ EXPOSE 8080
 
 CMD jar -ufm sonarqube-maven-example-1.0-SNAPSHOT.jar MANIFEST.MF
 
-COPY target/sonarqube-maven-example-1.0-SNAPSHOT.jar /sonarqube-maven-example-1.0-SNAPSHOT.jar
+COPY target/sonarqube-maven-example-1.0-SNAPSHOT.jar /
