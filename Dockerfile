@@ -4,6 +4,6 @@ EXPOSE 8080
 
 
 COPY target/sonarqube-maven-example-1.0-SNAPSHOT.jar /
-RUN chmod 777 /sonarqube-maven-example-1.0-SNAPSHOT.jar
+RUN chmod +rwx  /sonarqube-maven-example-1.0-SNAPSHOT.jar
 CMD jar -ufm sonarqube-maven-example-1.0-SNAPSHOT.jar MANIFEST.MF
 
