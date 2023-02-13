@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-mo-ro-sonarqube.apps.cluster-494bm.494bm.sandbox2587.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_29eb3af9acc96c8f5ffd018098ee0ffc0629fc68</sonar.login>
+               <sonar.host.url>https://sonar-newtask.apps.cluster-xptrd.xptrd.sandbox1825.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_a19e5b12b4618b6fd7bf260ae840ff4578361a71</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
