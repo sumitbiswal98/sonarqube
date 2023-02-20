@@ -12,42 +12,24 @@
       <password>admin123</password>
     </server>
   </servers>
-  <mirrors>
-    <mirror>
-      <id>nexus</id>
-      <mirrorOf>*</mirrorOf>
-      <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-proxy-repo/</url>
-    </mirror>
-  </mirrors>
   <profiles>
-    <profile>
-      <id>env-dev</id>
-      <activation>
-        <property>
-          <name>target-env</name>
-          <value>dev</value>
-        </property>
-      </activation>
-      
-    </profile>
-        <profile>
+     <profile>
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snapshot-repo</id>
+         <id>mo-ro-nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+         <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
        </repository>      
      </repositories>
-          
-   </profile>
+    </profile>
     <profile>
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-release-repo</id>
+         <id>mo-ro-nexus</id>
          <name>your custom repo</name>
-         <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+         <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus/</url>
        </repository>
      </repositories>
    </profile>
