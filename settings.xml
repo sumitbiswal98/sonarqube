@@ -14,7 +14,7 @@
   </servers>
   <mirrors>
     <mirror>
-      <id>nexus</id>
+      <id>demo-proxy</id>
       <mirrorOf>*</mirrorOf>
       <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-proxy/</url>
     </mirror>
