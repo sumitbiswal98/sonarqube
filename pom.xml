@@ -50,19 +50,6 @@
                     <artifactId>jacoco-maven-plugin</artifactId>
                     <version>0.8.6</version>
                 </plugin>
-		    <plugin>
-			    <groupId>org.apache.maven.plugins</groupId>
-			    <artifactId>maven-jar-plugin</artifactId>
-			    <version>3.2.0</version>
-			    <configuration>
-				    <archive>
-					    <manifest>
-						    <addClasspath>true</addClasspath>
-						    <mainClass>fully.qualified.MainClass</mainClass>
-					    </manifest>
-				    </archive>
-			    </configuration>
-		    </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -75,7 +62,7 @@
             </activation>
             <properties>
                <sonar.host.url>https://sonar-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_cb209b6c60f3e1194a1091f35beba4326021c9b7</sonar.login>
+	             <sonar.login>sqa_cb209b6c60f3e1194a1091f35beba4326021c9b7</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -107,31 +94,20 @@
                             </execution>
                         </executions>
                     </plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.2.0</version>
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-							<mainClass>fully.qualified.MainClass</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
                 </plugins>
             </build>
         </profile>
     </profiles>
-	<distributionManagement>  
-		<snapshotRepository> 
-			<id>mo-ro-nexus-snap</id>  
-			<url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url> 
-		</snapshotRepository>  
-		<repository>
-			<id>mo-ro-nexus-snap</id>  
-			<url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url> 
-		</repository> 
-	</distributionManagement>
+<distributionManagement>
+    <snapshotRepository>
+      <id>mo-ro-nexus-snap</id>
+      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
+    </snapshotRepository>
+	<repository>
+	  <id>mo-ro-nexus-snap</id>
+      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
+    </repository>
+  
+  </distributionManagement>
+
 </project>
