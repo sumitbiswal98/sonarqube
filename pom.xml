@@ -105,12 +105,12 @@
     </profiles>
 <distributionManagement>
     <snapshotRepository>
-      <id>mo-ro-nexus-snap</id>
-      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
+      <id>demo-snap</id>
+      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
     </snapshotRepository>
 	<repository>
-	  <id>mo-ro-nexus-snap</id>
-      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
+	  <id>demo-snap</id>
+      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
     </repository>
   
   </distributionManagement>
