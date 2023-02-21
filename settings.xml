@@ -7,7 +7,7 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexusdeploymentrepo</id>
+      <id>nexus-snap</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
@@ -16,7 +16,7 @@
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>https://repo1.maven.org/maven2/</url>
+      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -34,9 +34,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snapshot-repo</id>
+         <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+         <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
        </repository>      
      </repositories>
           
@@ -45,9 +45,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-release-repo</id>
+         <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>https://nexus-praveenkumar-reddy.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
+         <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
        </repository>
      </repositories>
    </profile>
