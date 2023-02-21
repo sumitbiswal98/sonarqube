@@ -7,11 +7,13 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexus</id>
+      <id>demo-snap</id>
       <username>admin</username>
       <password>admin1</password>
     </server>
   </servers>
+  
+  
   <mirrors>
     <mirror>
       <id>demo-proxy</id>
