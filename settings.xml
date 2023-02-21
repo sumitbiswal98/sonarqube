@@ -34,9 +34,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>mo-ro-nexus-snap</id>
+         <id>demo-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
+         <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
        </repository>      
      </repositories>
           
@@ -45,9 +45,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>mo-ro-nexus-snap</id>
+         <id>demo-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/mo-ro-nexus-snap/</url>
+         <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
        </repository>
      </repositories>
    </profile>
