@@ -100,11 +100,11 @@
     </profiles>
 <distributionManagement>
     <snapshotRepository>
-      <id>nexusdeploymentrepo</id>
+      <id>nexus-snap</id>
       <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexusdeploymentrepo</id>
+	  <id>nexus-snap</id>
       <url>http://nexus-pkr-demo.apps.ocp4.imss.com/repository/maven-artifact-repo/</url>
     </repository>
   
