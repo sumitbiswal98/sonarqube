@@ -7,16 +7,16 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexus-snap</id>
+      <id>demo-snap</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
   </servers>
   <mirrors>
     <mirror>
-      <id>nexus-proxy</id>
+      <id>demo-proxy</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-proxy/</url>
+      <url>http://nexus-java.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/demo-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -34,9 +34,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snap</id>
+         <id>demo-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-java.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/demo-proxy/</url>
        </repository>      
      </repositories>
           
@@ -45,9 +45,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-snap</id>
+         <id>demo-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-java.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/demo-proxy/</url>
        </repository>
      </repositories>
    </profile>
