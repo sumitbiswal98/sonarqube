@@ -6,6 +6,6 @@ images:
 - digest: sha256:096b5d6454e2f7696908e36abd34f8d91dde780c926158b719e08ca465fd0522
   name: quay.io/monishkumar/mo-ro-sonarqube
   newName: quay.io/monishkumar/mo-ro-sonarqube
-- digest: sha256:0e9462817e1dcdbba384989643a5c5d511fe22e07add47c571404ec609093f49
+- digest: sha256:e9ed03808d060ad8430a6bb8d1dde8d0542de8025ddf1d763dd5d6c570ce7a9f
   name: quay.io/monishkumar/mo-ro-sonarqube:latest
   newName: quay.io/monishkumar/mo-ro-sonarqube
