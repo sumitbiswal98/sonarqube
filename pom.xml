@@ -66,8 +66,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_cb209b6c60f3e1194a1091f35beba4326021c9b7</sonar.login>
+               <sonar.host.url>https://sonar-java.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_8e9d258954d0afeb49aba784dff0bcd2c1b8d520</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -106,11 +106,11 @@
 <distributionManagement>
     <snapshotRepository>
       <id>demo-snap</id>
-      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
+      <url>http://nexus-java.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/demo-snap/</url>
     </snapshotRepository>
 	<repository>
 	  <id>demo-snap</id>
-      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
+      <url>http://nexus-java.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/demo-snap/</url>
     </repository>
   
   </distributionManagement>
