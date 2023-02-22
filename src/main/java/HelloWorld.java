@@ -11,7 +11,7 @@
 public class HelloWorld {
 
     public void sayHello() {
-        System.out.println("HELLO THIS IS THE ROCkING IMSS-DEVOPS TEAM! WELCOME");
+        System.out.println("HELLO THIS IS THE ROCk-ING IMSS-DEVOPS TEAM! WELCOME");
     }
 
     public void notCovered() {
