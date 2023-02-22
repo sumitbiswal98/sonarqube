@@ -61,8 +61,9 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-argocd-demo.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_0a9e0a81a7372c9aaa0801ab76393d493ce0100a</sonar.login>
+               <sonar.host.url>	
+                                http://sonarqube-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_e9e087844d8598ec3793b668f1beb2fa8955baa9</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -101,11 +102,11 @@
 <distributionManagement>
     <snapshotRepository>
       <id>nexus-snap</id>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexus-snap</id>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
     </repository>
   
   </distributionManagement>
