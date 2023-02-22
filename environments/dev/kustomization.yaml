@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../k8s/
+images:
+- digest: sha256:25fddf89a76c2f4d7f234e2e4f4105789d0c5cf02b40ab9d2ae468003632f2df
+  name: quay.io/rohanp/newdemo
+  newName: quay.io/rohanp/newdemo
