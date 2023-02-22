@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: sonarqube-maven-example
+  name: sonarqube-maven-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sonarqube-maven-example
+  template:
+    metadata:
+      labels:
+        app: sonarqube-maven-example
+    spec:
+      containers:
+        - image: quay.io/monishkumar/mo-ro-sonarqube
+          imagePullPolicy: Always
+          name: sonarqube-maven-example
+          ports:
+            - containerPort: 8080
+              protocol: TCP
