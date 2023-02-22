@@ -43,13 +43,18 @@
                 <plugin>
                     <groupId>org.sonarsource.scanner.maven</groupId>
                     <artifactId>sonar-maven-plugin</artifactId>
-                    <version>3.9.1.2184</version>
+                    <version>3.9.0.2155</version>
                 </plugin>
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.3</version>
+                    <version>0.8.6</version>
                 </plugin>
+	        <plugin>
+		    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>3.1.0</version>	
+		</plugin>	
             </plugins>
         </pluginManagement>
     </build>
@@ -61,8 +66,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>http://sonarqube-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_e9e087844d8598ec3793b668f1beb2fa8955baa9</sonar.login>
+               <sonar.host.url>https://sonar-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_cb209b6c60f3e1194a1091f35beba4326021c9b7</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -100,12 +105,12 @@
     </profiles>
 <distributionManagement>
     <snapshotRepository>
-      <id>nexus-snap</id>
-      <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
+      <id>demo-snap</id>
+      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexus-snap</id>
-      <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
+	  <id>demo-snap</id>
+      <url>http://nexus-ci-cd-demo.apps.cluster-6xx4b.6xx4b.sandbox2311.opentlc.com/repository/demo-snap/</url>
     </repository>
   
   </distributionManagement>
