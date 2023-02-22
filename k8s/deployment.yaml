@@ -2,8 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: sonarqube
-  name: sonarqube
+    app: argocd-demo
+  name: argocd-demo
 spec:
   replicas: 1
   selector:
