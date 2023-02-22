@@ -61,8 +61,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>	
-                                http://sonarqube-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/</sonar.host.url>
+               <sonar.host.url>http://sonarqube-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/</sonar.host.url>
 	       <sonar.login>sqa_e9e087844d8598ec3793b668f1beb2fa8955baa9</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
