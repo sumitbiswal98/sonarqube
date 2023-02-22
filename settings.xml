@@ -14,9 +14,9 @@
   </servers>
   <mirrors>
     <mirror>
-      <id>nexus</id>
+      <id>nexus-proxy</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-proxy/</url>
+      <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -36,7 +36,7 @@
        <repository>
          <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
        </repository>      
      </repositories>
           
@@ -47,7 +47,7 @@
        <repository>
          <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-cicd.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/nexus-snap/</url>
        </repository>
      </repositories>
    </profile>
